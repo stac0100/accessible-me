@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(220, 220, 220);
   margin: 0;
   padding: 0;
 }
@@ -42,6 +42,8 @@ img {
   color: inherit;
   text-decoration: none;
   font-size: 1.25rem;
+  margin: 0 10px;
+  height: 100%;
 }
 
 form input,
@@ -68,4 +70,44 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+/***************************************************************
+                      My CSS
+***************************************************************/
+
+.main-nav ul li a:hover {
+  background-color: darkcyan;
+  color: antiquewhite;
+}
+
+.main-nav ul li a:focus {
+  border: 2px solid darkblue;
+}
+
+form button:hover{
+  background-color: darkcyan;
+  color: antiquewhite;
+}
+
+form button:focus{
+  border: 2px solid darkblue;
+}
+
+.skiplinks ul{
+  list-style: none;
+  position: relative;
+}
+
+.skiplinks a{
+  position: absolute;
+  top: -10em;
+}
+
+.skiplinks a:focus{
+  top: 0;
+  background-color: darkmagenta;
+  display: block;
+  padding: 10px;
+  color: white;
 }
