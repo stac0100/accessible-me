@@ -111,3 +111,7 @@ form button:focus{
   padding: 10px;
   color: white;
 }
+
+.address {
+  list-style: none;
+}
